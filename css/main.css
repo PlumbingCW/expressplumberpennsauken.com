@@ -321,3 +321,10 @@ main p,main li,main dd,main td{overflow-wrap:anywhere}
 
 .van-shot{margin-top:40px}.van-shot img{display:block;width:100%;height:auto;border-radius:8px;box-shadow:var(--shadow)}
 .postlist .post-card>h2{margin:18px 24px 8px}.postlist .post-card>p{margin:0 24px 12px}.postlist .post-card>.meta-line{margin:0 24px 22px}
+
+.nbhd-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:18px 0}
+.nbhd-chip{display:block;background:#fff;border:1px solid var(--bline);border-radius:6px;padding:16px 18px;text-decoration:none;color:var(--ink)}
+.nbhd-chip b{display:block;color:var(--navy);font-size:18px;margin-bottom:4px}
+.nbhd-chip span{font-size:15px;line-height:1.5}
+.nbhd-chip:hover{border-color:var(--orange);box-shadow:var(--shadow)}
+@media (max-width:640px){.nbhd-grid{grid-template-columns:minmax(0,1fr)}}
